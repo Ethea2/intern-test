@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [show, setShow] = useState(true)
   const [start, setStart] = useState(false)
-  const [minutes, setMinutes] = useState(30)
+  const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
   const [todos, setTodos] = useState([])
   const [todoInput, setTodoInput] = useState('')
