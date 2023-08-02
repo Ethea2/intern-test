@@ -46,7 +46,7 @@ function App() {
   }
 
   const reset = () => {
-    setMinutes(30)
+    setMinutes(0)
     setSeconds(0)
     clearInterval(intervals.current)
   }
